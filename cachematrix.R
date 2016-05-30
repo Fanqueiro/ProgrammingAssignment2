@@ -1,6 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Calculate the Inverse of a Matrix. 
+##In case the value of the inverse of the matrix has already been calculate it just gets cached.
 
+## This function is a list of function that set the matrix, get the matrix, set the inverse of the matrix and get the inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
